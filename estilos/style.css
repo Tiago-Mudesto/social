@@ -40,3 +40,23 @@ iframe#tela{
     width: 266px;
     height: 471px;
 }
+
+section#botoes{
+    text-align: right;
+    margin-right: 10px;
+}
+
+section#botoes img{
+    width: 50px ;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#botoes img:hover{
+border: 3px solid greenyellow;
+transform: translate(-3px, -3px);
+box-shadow: 5px 5px 10px;
+transition: transform .2s;
+}
