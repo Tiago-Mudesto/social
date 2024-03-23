@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100vw;
+}
+
+a{
+    display: block;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+A:hover{
+    background-color: blue;
+}
+
+::-webkit-scrollbar{    
+    height: 0px;
+    width: 0px;
+}                           /*Configuração para esconder barra de rolagem, truque para tirar rolagem lateral*/
